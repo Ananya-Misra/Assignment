@@ -21,18 +21,18 @@ Follow the following steps
 1. Clone this repo on your local machine. Read the [how to](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-clone) if you aren't sure.
 2. Make sure `yarn` is installed. You can find the installation guide at [Yarn's webpage](https://classic.yarnpkg.com/lang/en/docs/install/).
 3. Execute the following command in the directory
-   ```bash 
+   ```bash
    # make sure to `cd <project-directory>` before running the command
    yarn install
    ```
 4. Next, start the dev server
-   ```bash 
+   ```bash
    # in the same project-directory
    yarn dev
    ```
 5. Navigate to `localhost:3000` on your preferred web browser and see the page in action
 
---- 
+---
 
 ## The Test
 
@@ -48,7 +48,7 @@ The optimisation here is to reduce the lines of code. So in the context of javas
 
 ### **Challenge A - Optimise Javascript**
 
-Here, we would like you to reduce/refactor/rethink the javascript code in the `/public` directory. 
+Here, we would like you to reduce/refactor/rethink the javascript code in the `/public` directory.
 There are four files, `pink.js`, `orange.js`, `blue.js`, and `green.js`. They contain a similar code pattern, to build a functional counter.
 
 **Please Note**
@@ -59,9 +59,9 @@ The functionality of the page must not change after the refactoring. The `counts
 
 ### **Challenge B - Optimise HTML/CSS**
 
-Here, we would like you to reduce/refactor/rethink the CSS styling and the HTML code in the `/pages/index.js` and `/components/Layout.js` files. 
+Here, we would like you to reduce/refactor/rethink the CSS styling and the HTML code in the `/pages/index.js` and `/components/Layout.js` files.
 
-There are redundant CSS styles that can be removed, additionally there are 
+There are redundant CSS styles that can be removed, additionally there are
 
 **Please Note**
 
@@ -81,7 +81,7 @@ There are multiple ways you may submit your code.
 
 ## FAQ
 
-Q. Do we need to build the project using `yarn build`  <br/>
+Q. Do we need to build the project using `yarn build` <br/>
 A. No, the test will be evaluated using `yarn dev`, so feel free to skip the build process
 
 Q. What are the parameters of scoring for the test? <br/>
@@ -95,4 +95,3 @@ A. You will learn about state-of-the-art web technologies like AMP and NextJS; a
 
 Q. I have spent a lot of time on these challenges but have not made much progress? What should I do? <br/>
 A. First, don't feel disheartened, our challenges are in no way a perfect measure of your skills. If you are not satisfied with your solution, we would appreciate a write-up on how you attempted to solve the challenge and the steps you undertook towards your optimization.
-
